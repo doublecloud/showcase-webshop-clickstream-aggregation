@@ -1,6 +1,5 @@
 
 export KAFKA_ADDR=rw......................at.double.cloud:9091
-export KAFKA_ADDR=18..........8:9091
 export KAFKA_TOPIC=events_webshop
 
 export SASL_USER=admin

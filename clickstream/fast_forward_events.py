@@ -37,8 +37,8 @@ def main(target_date: str, inp: pathlib.Path, out: pathlib.Path):
 
 
 if __name__ == '__main__':
-    target_date = "2024-07-22 10:00:00"
-    inp = pathlib.Path(os.getenv('EVENTS_FILEPATH'))
+    target_date = "2024-09-06 10:00:00"
+    inp = pathlib.Path(os.getenv('EVENTS_FILE'))
     out = inp.parent / f'{inp.stem}.fastforwarded.jsonl'
     rich_print(
         "Target date for data start is",

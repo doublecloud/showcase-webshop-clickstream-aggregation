@@ -6,7 +6,7 @@ from rich import print as rich_print
 
 
 def main():
-    events = pathlib.Path(os.getenv("EVENTS_FILEPATH"))
+    events = pathlib.Path(os.getenv("EVENTS_FILE"))
     rich_print("Sending events from path", events)
     addr = os.getenv("KAFKA_ADDR")
     topic = os.getenv("KAFKA_TOPIC")
