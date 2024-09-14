@@ -1,0 +1,1 @@
+EXISTS performance_aggregates
