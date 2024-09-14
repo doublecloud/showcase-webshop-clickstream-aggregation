@@ -19,7 +19,7 @@ def compute_full_perf_metrics():
 
     select_stmnt = ClickHouseOperator(
         task_id='select_stmnt',
-        sql='compute_full_args.sql',
+        sql='compute_full_aggs.sql',
         clickhouse_conn_id='ch_default',
     )
 
