@@ -4,9 +4,9 @@ CREATE TABLE IF NOT EXISTS performance_aggregates
 (
     ts_start DateTime,
     ts_end DateTime,
-    total_revenue Integer,
-    num_buyers Integer,
     visitors Integer,
+    num_buyers Integer,
     num_purchases Integer,
+    total_revenue Integer,
     average_revenue_per_purchase Float32
 ) ENGINE = MergeTree() PRIMARY KEY ts_start

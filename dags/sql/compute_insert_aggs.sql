@@ -1,5 +1,5 @@
 INSERT INTO webshop.performance_aggregates
-  (ts_start, ts_end, total_revenue, num_buyers, visitors, num_purchases, average_revenue_per_purchase)
+  (ts_start, ts_end, visitors, num_buyers, num_purchases, total_revenue, average_revenue_per_purchase)
 WITH good_data AS (
     SELECT * FROM webshop.events_webshop
     WHERE 1=1
